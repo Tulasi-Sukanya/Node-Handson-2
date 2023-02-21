@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <title>Contact Form</title>
+</head>
+<body>
+   <div id="contact">
+       <div id="contactOverlay">
+           <div id="form">
+               <small>Contact</small>
+               <form action="/submit" method="POST">
+                   <input type="text" placeholder="NAME" name="name" required>
+                   <input type="email" placeholder="EMAIL" name="email" required>
+                   <input type="text" placeholder="NUMBER OF PEOPLE" name="number" required>
+                   <input type="checkbox" required><small>I agree that my submitted data is being collected and stored.</small> 
+                   <input type="submit" value="Submit">  
+               </form>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
